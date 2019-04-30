@@ -35,7 +35,7 @@ class SavedBooks extends React.Component {
         return (
             <div className="row">
                 <div className="col-md-9 mx-auto">
-                    <h1>Saved Books</h1>
+                    <h1 className="text-center">Saved Books</h1>
                     {this.state.books.map(book => (
                         <div className="row" key={book._id}>
                             <div className="col-md-12 mx-auto">
